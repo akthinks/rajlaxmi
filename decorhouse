@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajlaxmi Decor House - Event Management</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff66b2, #b2fefa);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff66b2;
+            font-size: 36px;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .service {
+            flex: 1;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            margin: 0 10px;
+        }
+
+        .service h2 {
+            color: #ff66b2;
+            font-size: 24px;
+        }
+
+        .service p {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rajlaxmi Decor House</h1>
+        <p>Event Management Services</p>
+    </header>
+    <div class="container">
+        <h2>Welcome to Rajlaxmi Decor House</h2>
+        <p>We specialize in creating memorable events tailored to your unique style and preferences. From weddings to corporate gatherings, we bring your vision to life.</p>
+
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h2>Wedding Planning</h2>
+                <p>We make your dream wedding a reality with meticulous planning and attention to detail.</p>
+            </div>
+            <div class="service">
+                <h2>Corporate Events</h2>
+                <p>Elevate your corporate events with our professional event management services.</p>
+            </div>
+            <div class="service">
+                <h2>Party Planning</h2>
+                <p>Celebrate life's special moments with our expert party planning and decor services.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
